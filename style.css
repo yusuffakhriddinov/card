@@ -63,23 +63,14 @@ body {
 /* Buttons -  Delete and Like */
 .buttons {
   position: relative;
-  padding-top: 30px;
-  margin-right: 60px;
+  padding-top: 20px;
+  margin-right: 80px;
 }
 
-.delete-btn {
-  display: inline-block;
-  cursor: pointer;
-  width: 18px;
-  height: 17px;
-  background: url("delete-icn.svg") no-repeat center;
-  margin-right: 20px;
-}
 
 .like-btn {
   position: absolute;
   top: 9px;
-  left: 15px;
   display: inline-block;
   background: url('twitter-heart.png');
   width: 60px;
@@ -209,8 +200,8 @@ input:focus {
   }
   .buttons {
     width:10%;
-    margin-right: 15px;
-    margin-left:-4%;
+    margin-right: 20px;
+    margin-left:-10%;
   }
   .total-price{
     width:5%;
