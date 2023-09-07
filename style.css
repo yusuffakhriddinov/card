@@ -147,6 +147,7 @@ button[class*=btn] {
 }
 .minus-btn img {
   margin-bottom: 3px;
+  
 }
 .plus-btn img {
   margin-top: 2px;
@@ -186,13 +187,20 @@ input:focus {
   }
   .image img {
     width: 80%;
+    margin-left:-40%;
+  }
+  .description{
+    margin-left:-18%;
+  }
+  .quantity{
+    margin-left:-10%;
   }
   .image,
   .quantity,
   .description {
     width: 80%;
     text-align: center;
-    margin: 6px 0;
+    
   }
   #first, #second, #third{
     width:80px;
@@ -221,6 +229,12 @@ input:focus {
   .quantity {
     padding-top: 20px;
     margin-right: 5px;
+  }
+  .plus-btn{
+    width:10px;
+  }
+  .minus-btn{
+    width:10px;
   }
 }
 
