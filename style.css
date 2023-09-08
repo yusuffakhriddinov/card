@@ -15,7 +15,7 @@ body {
 }
 
 .shopping-cart {
-  width: 750px;
+  width: 550px;
   height: 423px;
   margin: 40px auto;
   background: #FFFFFF;
@@ -29,7 +29,7 @@ body {
 #gift_box{
   margin: auto;
   background: #FFFFFF;
-  width: 750px;
+  width: 550px;
   height: 150px;
   display: flex;
   flex-direction: row;
@@ -64,21 +64,11 @@ body {
 .buttons {
   position: relative;
   padding-top: 20px;
-  margin-right: 80px;
+  margin-right: 20px;
 }
 
 
-.like-btn {
-  position: absolute;
-  top: 9px;
-  display: inline-block;
-  background: url('twitter-heart.png');
-  width: 60px;
-  height: 60px;
-  background-size: 2900%;
-  background-repeat: no-repeat;
-  cursor: pointer;
-}
+
 
 .is-active {
   animation-name: animate;
@@ -124,19 +114,22 @@ body {
 }
 
 /* Product Quantity */
-.quantity {
-  padding-top: 20px;
-  margin-right: 60px;
+
+
+
+.plus-btn,
+.minus-btn {
+  font-size: 12px; /* Adjust the font size as needed */
 }
-.quantity input {
-  -webkit-appearance: none;
-  border: none;
-  text-align: center;
-  width: 32px;
-  font-size: 16px;
-  color: #43484D;
-  font-weight: 300;
+
+input[name="name"] {
+  width: 30px; /* Adjust the width as needed */
+  height: 20px; /* Adjust the height as needed */
+  font-size: 12px; /* Adjust the font size as needed */
+  text-align: center; /* Center the text inside the input */
 }
+
+
 
 button[class*=btn] {
   width: 30px;
@@ -193,19 +186,18 @@ input:focus {
   .description{
     margin-left:-18%;
   }
-  .quantity{
-    margin-left:-10%;
-  }
+ 
   .image,
   .quantity,
   .description {
-    width: 80%;
+    width: 100%;
     text-align: center;
     
   }
 
   .gift-image{
-    margin-right:0px;
+    margin-right:-15px;
+
   }
   #first, #second, #third{
     width:80px;
@@ -233,7 +225,7 @@ input:focus {
   }
   .quantity {
     padding-top: 20px;
-    margin-right: 5px;
+    margin-right: 0px;
   }
   .plus-btn{
     width:10px;
@@ -269,11 +261,8 @@ input:focus {
   .description{
     margin-left:-18%;
   }
-  .quantity{
-    margin-left:-10%;
-  }
+  
   .image,
-  .quantity,
   .description {
     width: 80%;
     text-align: center;
@@ -300,16 +289,11 @@ input:focus {
     flex-direction: row;
     justify-content: center; 
     align-items: center;
+    text-align: center;
     box-shadow: 1px 2px 3px 0px rgba(0,0,0,0.10);
     border-radius: 6px;
   }
-  .gift-image{
-    margin-right:0px;
-  }
-  .quantity {
-    padding-top: 20px;
-    margin-right: 5px;
-  }
+  
   .plus-btn{
     width:10px;
   }
